@@ -1,0 +1,49 @@
+{
+  "name": "quiz-assignment",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-addons-update": "^15.6.2",
+    "react-scripts": "1.1.4",
+    "axios": "^0.17.1",
+    "classnames": "^2.2.5",
+    "formik": "^0.11.4",
+    "prop-types": "^15.6.0",
+    "react-bootstrap": "^0.31.5",
+    "react-bootstrap-table": "^4.3.1",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-text-mask": "^5.1.0",
+    "redux": "^3.7.2",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-thunk": "^2.2.0",
+    "string-format": "^0.5.0",
+    "yarn": "^1.5.1"
+    
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "axios-mock-adapter": "^1.10.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.3",
+    "lint-staged": "^6.0.0",
+    "node-sass-chokidar": "0.0.3",
+     "prettier": "^1.9.2"
+    
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,json,css,scss}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
